@@ -92,36 +92,32 @@ Imran is Attacking
 
 Alex is Running
 Alex is Attacking
+◆───────────────────────────────◆
+Organization:
 
-◆───────────────────────────────◆
-Observation
-◆───────────────────────────────◆
-
-Organization
-◆───────────────────────────────◆
 Player data and functions are kept
 inside one Class.
-
-Reusability
 ◆───────────────────────────────◆
+Reusability:
+
 The same Player class is reused to
 create p1 and p2 objects.
-
-Security
 ◆───────────────────────────────◆
+Security:
+
 Data can be protected using Private
 Members (Covered Later).
-
-Maintenance
 ◆───────────────────────────────◆
+Maintenance:
+
 If Player behavior changes, update
 only the Player class.
-
-Scalability
 ◆───────────────────────────────◆
+Scalability:
+
 Create unlimited Player objects
 without rewriting the class.
-
+◆───────────────────────────────◆
 🎤 Interview Point
 
 Q. What are the advantages of OOP?
