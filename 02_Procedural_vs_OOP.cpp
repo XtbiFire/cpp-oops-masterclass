@@ -75,7 +75,7 @@ public:
 // Main Function
 int main()
 {
-    cout << "========== Procedural Programming ==========\n";
+    cout << "Procedural Programming\n";
 
     cout << "Player Name : " << playerName << endl;
     cout << "Health      : " << playerHealth << endl;
@@ -83,7 +83,7 @@ int main()
     run();
     attack();
 
-    cout << "\n========== Object-Oriented Programming ==========\n";
+    cout << "Object-Oriented Programming\n";
 
     Player p1;
 
@@ -99,25 +99,24 @@ int main()
 /*
 Output:
 
-========== Procedural Programming ==========
+Procedural Programming:
 
 Player Name : Imran
 Health      : 100
 Player is Running
 Player is Attacking
 
-========== Object-Oriented Programming ==========
+Object-Oriented Programming:
 
 Player Name : Imran
 Health      : 100
 Player is Running
 Player is Attacking
 
-=================================================
+◆───────────────────────────────◆
 Observation:
-
 Procedural Programming
-----------------------
+◆───────────────────────────────◆
 Data:
 • playerName
 • playerHealth
@@ -127,9 +126,8 @@ Functions:
 • attack()
 
 Data and Functions are Separate.
-
 Object-Oriented Programming
----------------------------
+◆───────────────────────────────◆
 Class:
 Player
 
