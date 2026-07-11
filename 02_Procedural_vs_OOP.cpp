@@ -1,9 +1,7 @@
 /*
-◆════════════════════════════════════════════◆
-
+◆───────────────────────────────◆
 02. Procedural Programming vs Object-Oriented Programming
-
-◆════════════════════════════════════════════◆
+◆───────────────────────────────◆
 
 💡 Remember
 
@@ -31,9 +29,9 @@ Object-Oriented Programming (OOP)
 #include <iostream>
 using namespace std;
 
-/*=========================================
+◆───────────────────────────────◆
     Procedural Programming
-=========================================*/
+◆───────────────────────────────◆
 
 // Global Data
 string playerName = "Imran";
@@ -50,9 +48,9 @@ void attack()
     cout << "Player is Attacking" << endl;
 }
 
-/*=========================================
+◆───────────────────────────────◆
     Object-Oriented Programming
-=========================================*/
+◆───────────────────────────────◆
 
 class Player
 {
