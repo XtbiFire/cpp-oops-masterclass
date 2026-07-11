@@ -2,4 +2,4 @@
 
 ## 👾 Learning Levels
 
-🌱 Level 1 • OOP Foundation (01-28 Topics)
+🌱 Level 1 • OOP Foundation (01-28)
