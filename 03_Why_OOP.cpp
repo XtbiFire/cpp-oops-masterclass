@@ -1,9 +1,7 @@
 /*
-◆────────────────────────────────────────────◆
-
+◆───────────────────────────────◆
 03. Why OOP?
-
-◆────────────────────────────────────────────◆
+◆───────────────────────────────◆
 
 💡 Remember
 
@@ -26,11 +24,11 @@ Why OOP?
 Imagine:
 
 Without OOP
-------------
+◆───────────────────────────────◆
 Data and Functions are scattered.
 
 With OOP
----------
+◆───────────────────────────────◆
 Data and Functions stay together
 inside a Class.
 
@@ -39,9 +37,11 @@ inside a Class.
 #include <iostream>
 using namespace std;
 
-/*=========================================
+/*
+◆───────────────────────────────◆
         Without OOP (Procedural)
-=========================================*/
+◆───────────────────────────────◆
+*/
 
 // Global Data
 string playerName = "Imran";
@@ -59,9 +59,11 @@ void Attack()
     cout << "Player is Attacking" << endl;
 }
 
-/*=========================================
+/
+◆───────────────────────────────◆
         With OOP
-=========================================*/
+◆───────────────────────────────◆
+*/
 
 class Player
 {
@@ -87,7 +89,7 @@ public:
 // Main Function
 int main()
 {
-    cout << "========== Without OOP ==========" << endl;
+    cout << " Without OOP " << endl;
 
     cout << "Name   : " << playerName << endl;
     cout << "Health : " << health << endl;
@@ -98,7 +100,7 @@ int main()
 
     cout << endl;
 
-    cout << "========== With OOP ==========" << endl;
+    cout << " With OOP " << endl;
 
     Player p1;
 
@@ -115,7 +117,7 @@ int main()
 /*
 Output
 
-========== Without OOP ==========
+Without OOP:
 
 Name   : Imran
 Health : 100
@@ -123,7 +125,7 @@ Score  : 0
 Player is Running
 Player is Attacking
 
-========== With OOP ==========
+With OOP:
 
 Name   : Imran
 Health : 100
@@ -131,12 +133,12 @@ Score  : 0
 Player is Running
 Player is Attacking
 
-◆────────────────────────────────────────────◆
+◆───────────────────────────────◆
 Observation
-◆────────────────────────────────────────────◆
+◆───────────────────────────────◆
 
 Without OOP
------------
+◆───────────────────────────────◆
 • Data is Global
 • Functions are Global
 • Difficult to Manage Large Projects
@@ -144,7 +146,7 @@ Without OOP
 • Code Reuse is Difficult
 
 With OOP
---------
+◆───────────────────────────────◆
 • Data and Functions stay together
 • Better Organization
 • Better Security
