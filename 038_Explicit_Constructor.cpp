@@ -84,6 +84,9 @@ Only if allowed
   single-parameter
   Constructors.
 
+Student s = 20;   // Allowed?
+Student s(20);    // Allowed?
+Student s{20};    // Allowed?
 ◆───────────────────────────────◆
 
 🌐 Code
