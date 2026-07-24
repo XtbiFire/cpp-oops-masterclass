@@ -76,6 +76,11 @@ does not affect the other.
 
 ✔ Prevents Double Delete.
 
+Student s2 = s1;   // Copy Constructor
+
+Student s2(10);
+s2 = s1;           // Copy Assignment Operator
+
 ◆───────────────────────────────◆
 
 🌐 Code
